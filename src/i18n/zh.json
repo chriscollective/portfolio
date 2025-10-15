@@ -1,0 +1,89 @@
+{
+  "Home": "首頁",
+  "About": "關於我",
+  "Skills": "技能",
+  "Projects": "作品集",
+  "Contact": "聯絡我",
+
+  "hero_title": "嗨,我是 Chris Du",
+  "hero_description": "前端工程師,用最新的技術打造美好的網頁體驗",
+  "btn_getInTouch": "聯絡我",
+  "btn_learnMore": "了解更多",
+
+  "about_title": "關於我",
+  "about_description": "一位充滿熱情的開發者，熱愛創造數位體驗。",
+  "about_description2": "我是一名前端工程師，專注於打造直覺且視覺上引人入勝的使用者介面。我專注於 HTML、CSS 和 JavaScript，致力於將創意轉化為現實。",
+  "about_description3": "在程式設計時，我喜歡運用人工智慧和 Streamlit 來打造使用者友善的應用程式。我還擅長學習新技術和工具，以便跟上不斷發展的 Web 開發領域。",
+  "about_description4": "我相信透過不斷學習並了解最新的行業趨勢，可以提供真正具有影響力的尖端解決方案。",
+
+  "highlight": "遵循最佳實踐和現代開發標準編寫可維護、可擴展的程式碼。",
+  "highlight2": "創造直覺、美觀的使用者介面，提供卓越的使用者體驗。",
+  "highlight3": "優化應用程式以實現所有裝置的速度、可存取性和無縫效能。",
+
+  "skills_title": "Skills & Technologies",
+  "skills_description": "利用科技將想法變成現實",
+
+  "years_experience": "年經驗",
+  "projects_completed": "完成的專案",
+  "hours_coding": "編程小時數",
+  "satisfied_clients": "客戶滿意度",
+
+  "projects_title": "精選專案",
+  "projects_description": "展示我近期的作品與個人專案",
+
+  "project1_title": "No.1 GO  圍棋資訊網站",
+  "project1_description": "關於圍棋相關資訊的網站，使用 HTML、CSS 與 JavaScript 開發。",
+
+  "project2_title": "No.2 日本旅遊推薦網站",
+  "project2_description": "介紹日本熱門景點、文化小知識與行程建議的旅遊網站，使用 HTML、CSS 與 JavaScript 製作。",
+
+  "project3_title": "No.3 貪食蛇遊戲",
+  "project3_description": "經典貪食蛇遊戲，使用方向鍵控制蛇，避免撞到自己或牆壁。以 HTML、CSS、JavaScript 製作。",
+
+  "project4_title": "No.4 GPA 成績計算器",
+  "project4_description": "簡易 GPA 成績計算工具，輸入成績即可自動計算平均。使用 HTML、CSS、JavaScript 製作。",
+
+  "project5_title": "No.5 電費最佳化應用程式",
+  "project5_description": "協助使用者分析用電情況並降低電費的網頁應用。使用 Python、Streamlit、Google Sheets 開發。",
+
+  "project6_title": "No.6 Google 與本地登入系統",
+  "project6_description": "提供 Google 登入與本地帳號登入功能的網站。使用 Node.js、Express、MongoDB 建構。",
+
+  "project7_title": "No.7 React & Pexels API 圖片展示網站",
+  "project7_description": "以 React 製作的圖片展示網站，從 Pexels API 取得圖片並以方格形式顯示。",
+
+  "project8_title": "No.8 MERN 課程管理系統",
+  "project8_description": "能夠建立並管理課程、學生與講師的網頁系統。使用 React、Node.js、MongoDB 開發。",
+
+  "project9_title": "No.9 個人作品集網站",
+  "project9_description": "響應式個人作品集網站，具備動態內容管理與聯絡表單功能。",
+
+  "btn_active_server": "啟動伺服器",
+  "btn_live_demo": "線上展示",
+  "btn_github_code": "查看原始碼",
+
+  "projects_mobile_hint": "左右滑動以瀏覽",
+  "btn_view_all": "在 GitHub 上查看所有專案",
+
+  "contact_title": "聯絡我",
+  "contact_description": "讓我們聊聊你的下個專案，或單純打個招呼也行！",
+
+  "contact_form_title": "傳送訊息給我",
+  "contact_form_name": "姓名",
+  "contact_form_email": "電子郵件",
+  "contact_form_subject": "主題",
+  "contact_form_message": "訊息內容",
+  "contact_form_submit": "送出訊息",
+
+  "contact_info_title": "聯絡資訊",
+  "contact_info_email": "電子郵件",
+  "contact_info_phone": "電話",
+  "contact_info_location": "所在地點",
+
+  "contact_social_title": "追蹤我",
+
+  "work_together": "一起合作吧！",
+  "work_together_description": "我一直對新的機會與有趣的專案充滿興趣。無論你有任何問題，或只是想打聲招呼，我都會盡快回覆你！",
+
+  "footer_description": "全端開發者,熱愛創造精彩的數位體驗。"
+}

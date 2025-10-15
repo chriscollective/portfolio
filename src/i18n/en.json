@@ -1,0 +1,89 @@
+{
+  "Home": "Home",
+  "About": "About",
+  "Skills": "Skills",
+  "Projects": "Projects",
+  "Contact": "Contact",
+
+  "hero_title": "Hi, I'm Chris Du",
+  "hero_description": "Front-end Developer crafting beautiful and functional webexperiences with modern technologies",
+  "btn_getInTouch": "Get In Touch",
+  "btn_learnMore": "Learn More",
+
+  "about_title": "About me",
+  "about_description": "Passionate developer with a love for creating digital experiences",
+  "about_description2": "I'm a front-end developer specializing in crafting intuitive and visually appealing user interfaces. With a strong focus on HTML, CSS, and JavaScript, I bring ideas to life on the web.",
+  "about_description3": "When I am coding, I enjoy working with AI and streamlit to bring user-friendly applications to life. I also have a knack for learning new technologies and tools to stay up-to-date with the ever-evolving web development landscape.",
+  "about_description4": "I believe in continuous learning and staying up-to-date with the latest industry trends to deliver cutting-edge solutions that make a real impact.",
+
+  "highlight": "I write maintainable, scalable code following best practices and modern development standards.",
+  "highlight2": "Creating intuitive and beautiful user interfaces that provide exceptional user experiences.",
+  "highlight3": "Optimizing applications for speed, accessibility, and seamless performance across all devices.",
+
+  "skills_title": "Skills & Technologies",
+  "skills_description": "Technologies I work with to bring ideas to life",
+
+  "years_experience": "Years Experience",
+  "projects_completed": "Projects Completed",
+  "hours_coding": "Hours Coding",
+  "satisfied_clients": "Satisfaction Rate",
+
+  "projects_title": "Featured Projects",
+  "projects_description": "A showcase of my recent work and personal projects",
+
+  "project1_title": "No.1 GO Infomations Website",
+  "project1_description": "Informational website for GO Infomations. Built with HTML, CSS, and JavaScript.",
+
+  "project2_title": "No.2 Travel to Japan",
+  "project2_description": "A travel recommendation website for Japan, featuring popular destinations, cultural tips, and itinerary suggestions. Built with HTML, CSS, and JavaScript.",
+
+  "project3_title": "No.3 Snake Game",
+  "project3_description": "A classic snake game built with HTML, CSS, and JavaScript. Use the arrow keys to control the snake and avoid colliding with itself or the walls. Built with HTML, CSS, and JavaScript.",
+
+  "project4_title": "No.4 GPA Calculator",
+  "project4_description": "A simple GPA calculator built with HTML, CSS, and JavaScript. Enter your grades and calculate your GPA. Built with HTML, CSS, and JavaScript.",
+
+  "project5_title": "No.5 Electricity Optimize App",
+  "project5_description": "A web application that helps users optimize their electricity usage and reduce their fees. Built with Python,Streamlit,GoogleSheets.",
+
+  "project6_title": "No.6 Google and Local Login System",
+  "project6_description": "A web application that allows users to login with Google and Local accounts. Built with Node.js, Express, and MongoDB.",
+
+  "project7_title": "No.7 React &Pexel API",
+  "project7_description": "A simple React app that fetches images from the Pexels API and displays them in a grid. Built with React and the Pexels API.",
+
+  "project8_title": "No.8 MERN Project/Course Management System",
+  "project8_description": "A web application that allows users to create and manage courses, students, and instructors. Built with React, Node.js, and MongoDB.",
+
+  "project9_title": "No.9 Portfolio Website",
+  "project9_description": "A responsive portfolio website with dynamic content management, contact forms.",
+
+  "btn_active_server": "Activate Sever",
+  "btn_live_demo": "Live Demo",
+  "btn_github_code": "Code",
+
+  "projects_mobile_hint": "Swipe to navigate",
+  "btn_view_all": "View All Projects on GitHub",
+
+  "contact_title": "Get In Touch",
+  "contact_description": "Let's discuss your next project or just say hello",
+
+  "contact_form_title": "Send me a message",
+  "contact_form_name": "Name",
+  "contact_form_email": "Email",
+  "contact_form_subject": "Subject",
+  "contact_form_message": "Message",
+  "contact_form_submit": "Send Message",
+
+  "contact_info_title": "Contact Information",
+  "contact_info_email": "Email",
+  "contact_info_phone": "Phone",
+  "contact_info_location": "Location",
+
+  "contact_social_title": "Follow me",
+
+  "work_together": "Let's work together!",
+  "work_together_description": " I'm always interested in new opportunities and excitingprojects. Whether you have a question or just want to say hi,I'll try my best to get back to you!",
+
+  "footer_description": "Full-Stack Developer passionate about creating amazing digital experiences."
+}
