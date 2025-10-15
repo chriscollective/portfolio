@@ -100,8 +100,8 @@ export function Projects() {
       image:
         "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3J0Zm9saW8lMjB3ZWJzaXRlfGVufDF8fHx8MTc1NzMwMjE3M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       technologies: ["Figma", "React", "Vite", "Tailwind"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      liveUrl: "https://portfolio-opx6-sigma.vercel.app/",
+      githubUrl: "https://github.com/chriscollective/portfolio",
     },
   ];
 
@@ -230,7 +230,7 @@ export function Projects() {
           <div className="text-center mt-12">
             <Button variant="outline" size="lg" asChild>
               <a
-                href="https://github.com"
+                href="https://github.com/chriscollective"
                 target="_blank"
                 rel="noopener noreferrer"
               >

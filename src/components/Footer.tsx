@@ -9,12 +9,12 @@ export function Footer() {
   const socialLinks = [
     {
       icon: <Github className="size-4" />,
-      href: "https://github.com",
+      href: "https://github.com/chriscollective",
       label: "GitHub",
     },
     {
       icon: <Linkedin className="size-4" />,
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/chris-du-978143273/",
       label: "LinkedIn",
     },
     {

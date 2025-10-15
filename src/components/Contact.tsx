@@ -56,12 +56,12 @@ export function Contact() {
     {
       icon: <Github className="size-5" />,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/chriscollective",
     },
     {
       icon: <Linkedin className="size-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/chris-du-978143273/",
     },
     {
       icon: <Twitter className="size-5" />,

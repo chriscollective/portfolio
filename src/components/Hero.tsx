@@ -44,7 +44,7 @@ export function Hero() {
           <div className="flex justify-center space-x-4 mb-8">
             <Button variant="outline" size="icon" asChild>
               <a
-                href="https://github.com"
+                href="https://github.com/chriscollective"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -53,7 +53,7 @@ export function Hero() {
             </Button>
             <Button variant="outline" size="icon" asChild>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/chris-du-978143273/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
