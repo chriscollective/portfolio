@@ -15,7 +15,7 @@ export function Skills() {
     },
     {
       title: "Tools & DevOps",
-      skills: ["Git", "GitHub", "Streamlit", "VS Code", "Render"],
+      skills: ["Git", "GitHub", "Streamlit", "VS Code", "Render", "Vercel"],
     },
     {
       title: "AI Tools",
