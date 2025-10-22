@@ -68,8 +68,9 @@ export function Projects() {
         "MongoDB Atlas",
         "Render",
       ],
-      liveUrl: "https://google-login-6nno.onrender.com",
-      githubUrl: "https://https://github.com/chriscollective/google-login.com",
+      serverUrl: "https://post-system-server.onrender.com",
+      liveUrl: "https://post-system-client-176x.vercel.app/",
+      githubUrl: "https://github.com/chriscollective/Post-system-client",
     },
     {
       title: t("project7_title"),
