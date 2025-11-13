@@ -4987,3 +4987,34 @@ html {
     opacity: 0;
   }
 }
+
+/* Custom Padding Classes for Latest Project Section */
+@layer utilities {
+  .pl-10 {
+    padding-left: calc(var(--spacing) * 10);
+  }
+  
+  .pr-12 {
+    padding-right: calc(var(--spacing) * 12);
+  }
+  
+  .py-10 {
+    padding-top: calc(var(--spacing) * 10);
+    padding-bottom: calc(var(--spacing) * 10);
+  }
+  
+  @media (min-width: 768px) {
+    .md\:pl-14 {
+      padding-left: calc(var(--spacing) * 14);
+    }
+    
+    .md\:pr-20 {
+      padding-right: calc(var(--spacing) * 20);
+    }
+    
+    .md\:py-14 {
+      padding-top: calc(var(--spacing) * 14);
+      padding-bottom: calc(var(--spacing) * 14);
+    }
+  }
+}
