@@ -60,27 +60,27 @@ export function LatestProject() {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-primary/5 via-background to-primary/5">
+    <section className="py-24 bg-gradient-to-br from-primary/5 via-background to-primary/5">
       <div className="container mx-auto px-4">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-[90rem] mx-auto">
           {/* Section Header */}
-          <div className="text-center mb-12 animate-in fade-in slide-in-from-bottom-4 duration-700">
-            <Badge className="mb-4 text-sm px-4 py-1.5" variant="default">
+          <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-4 duration-700">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
               {t("latest_project_badge")}
-            </Badge>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+            </h1>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
               {projectData.title}
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-2xl md:text-3xl text-muted-foreground max-w-4xl mx-auto">
               {projectData.subtitle}
             </p>
           </div>
 
           {/* Main Content */}
           <Card className="overflow-hidden border-2 hover:border-primary/50 transition-all duration-500 hover:shadow-2xl">
-            <div className="grid md:grid-cols-2 gap-6 md:gap-8">
+            <div className="grid md:grid-cols-2 gap-8 md:gap-10">
               {/* Left: Image Carousel */}
-              <div className="relative bg-muted/30 p-8 flex flex-col justify-center min-h-full">
+              <div className="relative bg-muted/30 p-10 md:p-12 flex flex-col justify-center min-h-[600px] md:min-h-[700px]">
                 <Carousel
                   opts={{
                     align: "start",
@@ -107,23 +107,23 @@ export function LatestProject() {
               </div>
 
               {/* Right: Content */}
-              <div className="p-8 md:p-12 flex flex-col justify-center">
+              <div className="p-10 md:p-14 flex flex-col justify-center">
                 {/* Description */}
-                <p className="text-muted-foreground mb-6 leading-relaxed">
+                <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
                   {projectData.description}
                 </p>
 
                 {/* Tech Stack */}
-                <div className="mb-6">
-                  <h3 className="text-sm font-semibold mb-3 text-muted-foreground uppercase tracking-wide">
+                <div className="mb-8">
+                  <h3 className="text-base md:text-lg font-semibold mb-4 text-muted-foreground uppercase tracking-wide">
                     {t("latest_tech_stack")}
                   </h3>
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-3">
                     {projectData.technologies.map((tech, index) => (
                       <Badge
                         key={index}
                         variant="secondary"
-                        className="px-3 py-1 hover:bg-primary hover:text-primary-foreground transition-colors duration-300"
+                        className="px-4 py-2 text-base hover:bg-primary hover:text-primary-foreground transition-colors duration-300"
                       >
                         {tech}
                       </Badge>
@@ -132,21 +132,21 @@ export function LatestProject() {
                 </div>
 
                 {/* Stats */}
-                <div className="flex items-center justify-between gap-4 mb-6 p-4 rounded-lg bg-gradient-to-r from-muted/30 to-muted/50 border border-border/50">
+                <div className="flex items-center justify-between gap-5 mb-8 p-5 rounded-lg bg-gradient-to-r from-muted/30 to-muted/50 border border-border/50">
                   {projectData.stats.map((stat, index) => (
                     <div
                       key={index}
                       className="flex-1 text-center group hover:scale-105 transition-transform duration-300"
                     >
-                      <div className="flex items-center justify-center gap-2 mb-1">
-                        <div className="text-primary group-hover:scale-110 transition-transform">
+                      <div className="flex items-center justify-center gap-2 mb-2">
+                        <div className="text-primary group-hover:scale-110 transition-transform w-5 h-5">
                           {stat.icon}
                         </div>
-                        <div className="text-3xl font-bold text-foreground">
+                        <div className="text-4xl md:text-5xl font-bold text-foreground">
                           {stat.value}
                         </div>
                       </div>
-                      <div className="text-xs text-muted-foreground font-medium">
+                      <div className="text-sm md:text-base text-muted-foreground font-medium">
                         {stat.label}
                       </div>
                     </div>
@@ -154,24 +154,24 @@ export function LatestProject() {
                 </div>
 
                 {/* Features */}
-                <div className="mb-8">
-                  <h3 className="text-sm font-semibold mb-4 text-muted-foreground uppercase tracking-wide">
+                <div className="mb-10">
+                  <h3 className="text-base md:text-lg font-semibold mb-5 text-muted-foreground uppercase tracking-wide">
                     {t("latest_key_features")}
                   </h3>
-                  <div className="space-y-3">
+                  <div className="space-y-4">
                     {projectData.features.map((feature, index) => (
                       <div
                         key={index}
-                        className="flex items-start space-x-3 p-3 rounded-lg hover:bg-muted/50 transition-colors duration-300 group"
+                        className="flex items-start space-x-4 p-4 rounded-lg hover:bg-muted/50 transition-colors duration-300 group"
                       >
-                        <div className="text-primary mt-0.5 group-hover:scale-110 transition-transform duration-300">
+                        <div className="text-primary mt-1 group-hover:scale-110 transition-transform duration-300 w-6 h-6">
                           {feature.icon}
                         </div>
                         <div className="flex-1">
-                          <h4 className="font-semibold text-sm mb-1">
+                          <h4 className="font-semibold text-base md:text-lg mb-2">
                             {feature.title}
                           </h4>
-                          <p className="text-xs text-muted-foreground">
+                          <p className="text-sm md:text-base text-muted-foreground">
                             {feature.description}
                           </p>
                         </div>
@@ -181,15 +181,15 @@ export function LatestProject() {
                 </div>
 
                 {/* CTA Buttons */}
-                <div className="flex flex-wrap gap-3">
-                  <Button size="lg" asChild className="flex-1 min-w-[140px]">
+                <div className="flex flex-wrap gap-4">
+                  <Button size="lg" asChild className="flex-1 min-w-[160px] h-14 text-lg">
                     <a
                       href={projectData.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="group"
                     >
-                      <ExternalLink className="size-4 mr-2 group-hover:scale-110 transition-transform" />
+                      <ExternalLink className="size-5 mr-2 group-hover:scale-110 transition-transform" />
                       {t("btn_live_demo")}
                     </a>
                   </Button>
@@ -197,7 +197,7 @@ export function LatestProject() {
                     variant="outline"
                     size="lg"
                     asChild
-                    className="flex-1 min-w-[140px]"
+                    className="flex-1 min-w-[160px] h-14 text-lg"
                   >
                     <a
                       href={projectData.githubUrl}
@@ -205,7 +205,7 @@ export function LatestProject() {
                       rel="noopener noreferrer"
                       className="group"
                     >
-                      <Github className="size-4 mr-2 group-hover:rotate-12 transition-transform" />
+                      <Github className="size-5 mr-2 group-hover:rotate-12 transition-transform" />
                       {t("btn_github_code")}
                     </a>
                   </Button>
