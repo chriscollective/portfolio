@@ -50,7 +50,8 @@ export function LatestProject() {
       { label: t("latest_stat_3_label"), value: "237", icon: <TrendingUp className="size-4" /> },
     ],
     screenshots: [
-      { src: "./images/mmquiz.png", alt: t("latest_screenshot_1") },
+      { src: "./images/homepage.png", alt: t("latest_screenshot_1") },
+      { src: "./images/resultpage.png", alt: t("latest_screenshot_6") },
       { src: "./images/ranking.png", alt: t("latest_screenshot_2") },
       { src: "./images/questionBank.png", alt: t("latest_screenshot_3") },
       { src: "./images/adminBoard.png", alt: t("latest_screenshot_4") },
