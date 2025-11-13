@@ -12,7 +12,7 @@ export function About() {
     },
     {
       icon: <Palette className="size-8 text-primary" />,
-      title: "UI/UX Design",
+      title: "Codex/Claude",
       description: t("highlight2"),
     },
     {
