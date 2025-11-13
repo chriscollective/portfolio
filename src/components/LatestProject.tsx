@@ -108,10 +108,26 @@ export function LatestProject() {
 
               {/* Right: Content */}
               <div className="pl-10 pr-12 py-10 md:pl-14 md:pr-20 md:py-14 flex flex-col justify-center">
-                {/* Description */}
-                <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
-                  {projectData.description}
-                </p>
+                {/* Project Description */}
+                <div className="mb-8">
+                  <h3 className="text-base md:text-lg font-semibold mb-3 text-foreground">
+                    {t("latest_project_description_title")}
+                  </h3>
+                  <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                    {projectData.description}
+                  </p>
+                </div>
+
+                {/* Development Diary */}
+                <div className="mb-8 p-4 md:p-5 rounded-lg bg-primary/5 border border-primary/20">
+                  <h3 className="text-base md:text-lg font-semibold mb-3 text-foreground flex items-center gap-2">
+                    <span className="text-primary">📝</span>
+                    {t("latest_dev_diary_title")}
+                  </h3>
+                  <p className="text-sm md:text-base text-muted-foreground leading-relaxed italic">
+                    {t("latest_dev_diary_content")}
+                  </p>
+                </div>
 
                 {/* Tech Stack */}
                 <div className="mb-8">

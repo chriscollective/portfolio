@@ -31,7 +31,10 @@
   "latest_project_badge": "Latest Project",
   "latest_project_title": "MMQuiz",
   "latest_project_subtitle": "Full-Stack Quiz Management System",
-  "latest_project_description": "A comprehensive quiz platform featuring frontend testing interface and backend question bank management. Users can select various quiz categories for testing, view scores and explanations after completion, and compete on the leaderboard. The admin panel provides complete question CRUD operations and detailed analytics.",
+  "latest_project_description_title": "Project Overview",
+  "latest_project_description": "A comprehensive quiz platform designed from the quiz creator's perspective, featuring frontend testing interface and backend question bank management. Users can select various quiz categories for testing, view scores and explanations after completion, compete on the leaderboard, and report issues to admin. The admin panel provides complete question CRUD operations, detailed analytics, password management, and issue tracking.",
+  "latest_dev_diary_title": "Development Insights",
+  "latest_dev_diary_content": "During development, I discovered a security vulnerability where POSTMAN could be used to send frontend API requests and achieve arbitrary scores on the leaderboard. This issue was resolved by modifying the score reading mechanism.",
 
   "latest_tech_stack": "Tech Stack",
   "latest_key_features": "Key Features",
