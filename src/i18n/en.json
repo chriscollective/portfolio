@@ -28,6 +28,33 @@
   "hours_coding": "Hours Coding",
   "satisfied_clients": "Satisfaction Rate",
 
+  "latest_project_badge": "Latest Project",
+  "latest_project_title": "MMQuiz",
+  "latest_project_subtitle": "Full-Stack Quiz Management System",
+  "latest_project_description": "A comprehensive quiz platform featuring frontend testing interface and backend question bank management. Users can select various quiz categories for testing, view scores and explanations after completion, and compete on the leaderboard. The admin panel provides complete question CRUD operations and detailed analytics.",
+
+  "latest_tech_stack": "Tech Stack",
+  "latest_key_features": "Key Features",
+
+  "latest_feature_1_title": "Flexible Quiz Selection",
+  "latest_feature_1_desc": "Single or multiple category selection for customized testing",
+  "latest_feature_2_title": "Leaderboard System",
+  "latest_feature_2_desc": "Competitive rankings to enhance testing engagement",
+  "latest_feature_3_title": "Question Bank Management",
+  "latest_feature_3_desc": "Easy add, edit, and delete operations for question management",
+  "latest_feature_4_title": "Analytics Dashboard",
+  "latest_feature_4_desc": "Track test takers, score distribution, and question accuracy rates",
+
+  "latest_stat_1_label": "Questions",
+  "latest_stat_2_label": "Users",
+  "latest_stat_3_label": "Tests Taken",
+
+  "latest_screenshot_1": "Homepage",
+  "latest_screenshot_2": "Leaderboard",
+  "latest_screenshot_3": "Question Bank Management",
+  "latest_screenshot_4": "Admin Dashboard",
+  "latest_screenshot_5": "Analytics Dashboard",
+
   "projects_title": "Featured Projects",
   "projects_description": "A showcase of my recent work and personal projects",
 

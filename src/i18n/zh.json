@@ -28,6 +28,33 @@
   "hours_coding": "編程小時數",
   "satisfied_clients": "客戶滿意度",
 
+  "latest_project_badge": "最新專案",
+  "latest_project_title": "MMQuiz",
+  "latest_project_subtitle": "全端測驗管理系統",
+  "latest_project_description": "完整的測驗平台，包含前端測驗介面與後端題庫管理系統。使用者可選擇不同題庫進行測驗，完成後查看成績與解析，並在排行榜上競爭。管理者後台提供完整的題目增刪改查功能與詳細數據分析。",
+
+  "latest_tech_stack": "技術堆疊",
+  "latest_key_features": "核心功能",
+
+  "latest_feature_1_title": "多樣化題庫選擇",
+  "latest_feature_1_desc": "可以單選也可以複選，自訂測驗範圍",
+  "latest_feature_2_title": "排行榜功能",
+  "latest_feature_2_desc": "增添測驗樂趣，激發競爭動力",
+  "latest_feature_3_title": "題庫管理系統",
+  "latest_feature_3_desc": "增加、修改管理題庫沒煩惱",
+  "latest_feature_4_title": "後台數據分析",
+  "latest_feature_4_desc": "看看測驗人數與成績分布，檢視題目正確率，確保題目難度適中",
+
+  "latest_stat_1_label": "題庫數量",
+  "latest_stat_2_label": "測驗人數",
+  "latest_stat_3_label": "測驗次數",
+
+  "latest_screenshot_1": "首頁",
+  "latest_screenshot_2": "排行榜",
+  "latest_screenshot_3": "題庫管理頁面",
+  "latest_screenshot_4": "後台管理頁面",
+  "latest_screenshot_5": "後台數據分析",
+
   "projects_title": "精選專案",
   "projects_description": "展示我近期的作品與個人專案",
 
