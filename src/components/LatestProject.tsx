@@ -77,7 +77,7 @@ export function LatestProject() {
 
           {/* Main Content */}
           <Card className="overflow-hidden border-2 hover:border-primary/50 transition-all duration-500 hover:shadow-2xl">
-            <div className="grid md:grid-cols-2 gap-0">
+            <div className="grid md:grid-cols-2 gap-6 md:gap-8">
               {/* Left: Image Carousel */}
               <div className="relative bg-muted/30 p-8 flex flex-col justify-center min-h-full">
                 <Carousel
