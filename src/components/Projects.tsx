@@ -72,6 +72,14 @@ export function Projects() {
       liveUrl: "https://portfolio-opx6-sigma.vercel.app/",
       githubUrl: "https://github.com/chriscollective/portfolio",
     },
+    {
+      title: t("project6_title"),
+      description: t("project6_description"),
+      image: "./images/mmquiz.png",
+      technologies: ["React", "Node.js", "MongoDB", "Express"],
+      liveUrl: "https://mmquiz.vercel.app/",
+      githubUrl: "https://github.com/chriscollective/MedicalMediumQuiz",
+    },
   ];
 
   return (

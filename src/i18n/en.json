@@ -46,6 +46,9 @@
   "project5_title": "No.5 Portfolio Website",
   "project5_description": "A responsive portfolio website with dynamic content management, contact forms.",
 
+  "project6_title": "No.6 MMQuiz",
+  "project6_description": "This project uses frontend technologies to build the quiz interface and backend technologies to build the question bank and admin system. Users can select different quiz categories and take tests. After completion, test scores and answer explanations are displayed to help users understand incorrect answers. Features a leaderboard showing top performers. The admin panel is exclusive to administrators with dedicated accounts. Admin features include adding, editing, and deleting questions, as well as viewing analytics: number of test takers, test frequency, score distribution, and question error rates to facilitate content adjustments.",
+
   "btn_active_server": "Activate Sever",
   "btn_live_demo": "Live Demo",
   "btn_github_code": "Code",
