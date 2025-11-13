@@ -131,19 +131,21 @@ export function LatestProject() {
                 </div>
 
                 {/* Stats */}
-                <div className="grid grid-cols-3 gap-4 mb-6">
+                <div className="flex items-center justify-between gap-4 mb-6 p-4 rounded-lg bg-gradient-to-r from-muted/30 to-muted/50 border border-border/50">
                   {projectData.stats.map((stat, index) => (
                     <div
                       key={index}
-                      className="text-center p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors duration-300"
+                      className="flex-1 text-center group hover:scale-105 transition-transform duration-300"
                     >
-                      <div className="flex justify-center mb-1 text-primary">
-                        {stat.icon}
+                      <div className="flex items-center justify-center gap-2 mb-1">
+                        <div className="text-primary group-hover:scale-110 transition-transform">
+                          {stat.icon}
+                        </div>
+                        <div className="text-3xl font-bold text-foreground">
+                          {stat.value}
+                        </div>
                       </div>
-                      <div className="text-2xl font-bold text-foreground">
-                        {stat.value}
-                      </div>
-                      <div className="text-xs text-muted-foreground mt-1">
+                      <div className="text-xs text-muted-foreground font-medium">
                         {stat.label}
                       </div>
                     </div>
