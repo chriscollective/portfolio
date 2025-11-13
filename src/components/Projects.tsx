@@ -19,46 +19,14 @@ export function Projects() {
     {
       title: t("project1_title"),
       description: t("project1_description"),
-      image: "./images/go-equipment.png",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      liveUrl: "https://chriscollective.github.io/go-website/",
-      githubUrl: "https://github.com/chriscollective/go-website",
-    },
-    {
-      title: t("project2_title"),
-      description: t("project2_description"),
-      image: "./images/kyoto.jpg",
-      technologies: ["HTML", "SCSS", "JavaScript"],
-      liveUrl: "https://chriscollective.github.io/travel-japan/",
-      githubUrl: "https://github.com/chriscollective/travel-japan",
-    },
-    {
-      title: t("project3_title"),
-      description: t("project3_description"),
-      image: "./images/snakeGame.png",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      liveUrl: "https://chriscollective.github.io/snake-game/",
-      githubUrl: "https://github.com/chriscollective/snake-game",
-    },
-    {
-      title: t("project4_title"),
-      description: t("project4_description"),
-      image: "./images/GPA.png",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      liveUrl: "https://chriscollective.github.io/gap-calculator/",
-      githubUrl: "https://github.com/chriscollective/gap-calculator",
-    },
-    {
-      title: t("project5_title"),
-      description: t("project5_description"),
       image: "./images/electricityApp.png",
       technologies: ["Python", "Streamlit", "GoogleSheets"],
       liveUrl: "https://optipower.streamlit.app/",
       githubUrl: "https://github.com/chriscollective/electricity-optimize-app",
     },
     {
-      title: t("project6_title"),
-      description: t("project6_description"),
+      title: t("project2_title"),
+      description: t("project2_description"),
       image: "./images/googleLogin.png",
       technologies: [
         "Node.js",
@@ -73,8 +41,8 @@ export function Projects() {
       githubUrl: "https://github.com/chriscollective/Post-system-client",
     },
     {
-      title: t("project7_title"),
-      description: t("project7_description"),
+      title: t("project3_title"),
+      description: t("project3_description"),
       image: "./images/pexels.png",
       technologies: [
         "React.js",
@@ -87,8 +55,8 @@ export function Projects() {
       githubUrl: "https://github.com/chriscollective/pexel-photos",
     },
     {
-      title: t("project8_title"),
-      description: t("project8_description"),
+      title: t("project4_title"),
+      description: t("project4_description"),
       image: "./images/LearningPage.png",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
       serverUrl: "https://mern-server-qxsc.onrender.com",
@@ -96,8 +64,8 @@ export function Projects() {
       githubUrl: "https://github.com/chriscollective/MERN-CLIENT",
     },
     {
-      title: t("project9_title"),
-      description: t("project9_description"),
+      title: t("project5_title"),
+      description: t("project5_description"),
       image:
         "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3J0Zm9saW8lMjB3ZWJzaXRlfGVufDF8fHx8MTc1NzMwMjE3M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       technologies: ["Figma", "React", "Vite", "Tailwind"],

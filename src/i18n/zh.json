@@ -13,8 +13,8 @@
   "about_title": "關於我",
   "about_description": "一位充滿熱情的開發者，熱愛創造數位體驗。",
   "about_description2": "我是一名前端工程師，專注於打造直覺且視覺上引人入勝的使用者介面、致力於將創意轉化為現實。",
-  "about_description3": "享受跟著AI一起Coding的樂趣，喜歡能夠真實解決痛點的程式設計。使用不同的AI工具像Figma、ChatGPT、Claude和Copliot來帶來使用者友好的應用程式。我也有一個熱情的學習新技術和工具來保持跟著時代的前沿。",
-  "about_description4": "目前正在持續學習關於AI Agent、資訊安全等的最新趨勢，並致力於為客戶提供最佳的解決方案。",
+  "about_description3": "享受跟著AI一起Coding的樂趣，喜歡能夠真實解決痛點的程式設計。使用不同的AI工具像Claude、Codex來帶來使用者友好的應用程式。我也有一個熱情的學習新技術和工具來保持跟著時代的前沿。",
+  "about_description4": "目前能夠以SDD規格開發的方式，與Cluade協作開發全端專案，並順利上線。",
 
   "highlight": "遵循最佳實踐和現代開發標準編寫可維護、可擴展的程式碼。",
   "highlight2": "創造直覺、美觀的使用者介面，提供卓越的使用者體驗。",
@@ -31,32 +31,20 @@
   "projects_title": "精選專案",
   "projects_description": "展示我近期的作品與個人專案",
 
-  "project1_title": "No.1 GO  圍棋資訊網站",
-  "project1_description": "關於圍棋相關資訊的網站，使用 HTML、CSS 與 JavaScript 開發。",
+  "project1_title": "No.1 電費最佳化應用程式",
+  "project1_description": "協助使用者分析用電情況並降低電費的網頁應用。使用 Python、Streamlit、Google Sheets 開發。",
 
-  "project2_title": "No.2 日本旅遊推薦網站",
-  "project2_description": "介紹日本熱門景點、文化小知識與行程建議的旅遊網站，使用 HTML、CSS 與 JavaScript 製作。",
+  "project2_title": "No.2 Google 與本地登入系統",
+  "project2_description": "提供 Google 登入與本地帳號登入功能的網站。使用 Node.js、Express、MongoDB 建構。",
 
-  "project3_title": "No.3 貪食蛇遊戲",
-  "project3_description": "經典貪食蛇遊戲，使用方向鍵控制蛇，避免撞到自己或牆壁。以 HTML、CSS、JavaScript 製作。",
+  "project3_title": "No.3 React & Pexels API 圖片展示網站",
+  "project3_description": "以 React 製作的圖片展示網站，從 Pexels API 取得圖片並以方格形式顯示。",
 
-  "project4_title": "No.4 GPA 成績計算器",
-  "project4_description": "簡易 GPA 成績計算工具，輸入成績即可自動計算平均。使用 HTML、CSS、JavaScript 製作。",
+  "project4_title": "No.4 MERN 課程管理系統",
+  "project4_description": "能夠建立並管理課程、學生與講師的網頁系統。使用 React、Node.js、MongoDB 開發。",
 
-  "project5_title": "No.5 電費最佳化應用程式",
-  "project5_description": "協助使用者分析用電情況並降低電費的網頁應用。使用 Python、Streamlit、Google Sheets 開發。",
-
-  "project6_title": "No.6 Google 與本地登入系統",
-  "project6_description": "提供 Google 登入與本地帳號登入功能的網站。使用 Node.js、Express、MongoDB 建構。",
-
-  "project7_title": "No.7 React & Pexels API 圖片展示網站",
-  "project7_description": "以 React 製作的圖片展示網站，從 Pexels API 取得圖片並以方格形式顯示。",
-
-  "project8_title": "No.8 MERN 課程管理系統",
-  "project8_description": "能夠建立並管理課程、學生與講師的網頁系統。使用 React、Node.js、MongoDB 開發。",
-
-  "project9_title": "No.9 個人作品集網站",
-  "project9_description": "響應式個人作品集網站，具備動態內容管理與聯絡表單功能。",
+  "project5_title": "No.5 個人作品集網站",
+  "project5_description": "響應式個人作品集網站，具備動態內容管理與聯絡表單功能。",
 
   "btn_active_server": "啟動伺服器",
   "btn_live_demo": "線上展示",
