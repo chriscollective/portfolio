@@ -107,7 +107,7 @@ export function LatestProject() {
               </div>
 
               {/* Right: Content */}
-              <div className="p-10 md:p-14 flex flex-col justify-center">
+              <div className="pl-10 pr-12 py-10 md:pl-14 md:pr-20 md:py-14 flex flex-col justify-center">
                 {/* Description */}
                 <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
                   {projectData.description}
