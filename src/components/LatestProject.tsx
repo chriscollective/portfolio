@@ -79,7 +79,7 @@ export function LatestProject() {
           <Card className="overflow-hidden border-2 hover:border-primary/50 transition-all duration-500 hover:shadow-2xl">
             <div className="grid md:grid-cols-2 gap-0">
               {/* Left: Image Carousel */}
-              <div className="relative bg-muted/30 p-8 flex items-center justify-center">
+              <div className="relative bg-muted/30 p-8 flex flex-col justify-center min-h-full">
                 <Carousel
                   opts={{
                     align: "start",
@@ -90,11 +90,11 @@ export function LatestProject() {
                   <CarouselContent>
                     {projectData.screenshots.map((screenshot, index) => (
                       <CarouselItem key={index}>
-                        <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                        <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 h-full flex items-center">
                           <ImageWithFallback
                             src={screenshot.src}
                             alt={screenshot.alt}
-                            className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+                            className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
                           />
                         </div>
                       </CarouselItem>
