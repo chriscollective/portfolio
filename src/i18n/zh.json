@@ -34,7 +34,11 @@
   "latest_project_description_title": "專案描述",
   "latest_project_description": "完整的測驗平台，以出題者的角度出開發設計，包含前端測驗介面與後端題庫管理系統。前端使用者可選擇不同題庫進行測驗，完成測驗後，可查看成績與解析，並在排行榜上競爭，也提供問題回報功能，可將有誤的內容回報至管理者後台。管理者後台提供完整的題目的增刪改查功能與詳細數據分析，並提供變更管理帳號之密碼的功能，也可以查看問題回報有哪些內容。",
   "latest_dev_diary_title": "開發日記",
-  "latest_dev_diary_content": "過程中曾發現可以用POSTMAN傳遞前端APIrequest，達成任意分數上榜，修改成績讀取機制後才避免此漏洞的發生。",
+  "latest_dev_diary_items": [
+    "過程中曾發現可以用 POSTMAN 傳遞前端 API request，達成任意分數上榜，修改成績讀取機制後才避免此漏洞的發生。",
+    "伺服器總是冷啟動，套用外部的 UptimeRobot 每 5 分鐘 ping 一次伺服器，保持伺服器活絡。",
+    "數據分析讀取資料太慢，打包所有 API 請求，一次性傳遞與接收，大幅節省讀取時間。"
+  ],
 
   "latest_tech_stack": "技術堆疊",
   "latest_key_features": "核心功能",

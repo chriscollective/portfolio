@@ -1,7 +1,14 @@
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { ExternalLink, Github, TrendingUp, Users, FileText, BarChart } from "lucide-react";
+import {
+  ExternalLink,
+  Github,
+  TrendingUp,
+  Users,
+  FileText,
+  BarChart,
+} from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import {
   Carousel,
@@ -14,6 +21,10 @@ import { useTranslation } from "react-i18next";
 
 export function LatestProject() {
   const { t } = useTranslation();
+  const devDiaryItems =
+    (t("latest_dev_diary_items", {
+      returnObjects: true,
+    }) as string[]) ?? [];
 
   const projectData = {
     title: t("latest_project_title"),
@@ -45,9 +56,21 @@ export function LatestProject() {
       },
     ],
     stats: [
-      { label: t("latest_stat_1_label"), value: "129", icon: <FileText className="size-4" /> },
-      { label: t("latest_stat_2_label"), value: "174", icon: <Users className="size-4" /> },
-      { label: t("latest_stat_3_label"), value: "237", icon: <TrendingUp className="size-4" /> },
+      {
+        label: t("latest_stat_1_label"),
+        value: "129",
+        icon: <FileText className="size-4" />,
+      },
+      {
+        label: t("latest_stat_2_label"),
+        value: "174",
+        icon: <Users className="size-4" />,
+      },
+      {
+        label: t("latest_stat_3_label"),
+        value: "237",
+        icon: <TrendingUp className="size-4" />,
+      },
     ],
     screenshots: [
       { src: "./images/homepage.png", alt: t("latest_screenshot_1") },
@@ -119,14 +142,19 @@ export function LatestProject() {
                 </div>
 
                 {/* Development Diary */}
-                <div className="mb-8 p-4 md:p-5 rounded-lg bg-primary/5 border border-primary/20">
+                <div className="mb-8 p-4 md:p-5 rounded-lg bg-primary/5 ">
                   <h3 className="text-base md:text-lg font-semibold mb-3 text-foreground flex items-center gap-2">
                     <span className="text-primary">📝</span>
                     {t("latest_dev_diary_title")}
                   </h3>
-                  <p className="text-sm md:text-base text-muted-foreground leading-relaxed italic">
-                    {t("latest_dev_diary_content")}
-                  </p>
+                  <ul className="space-y-4 text-muted-foreground text-sm md:text-base leading-relaxed">
+                    {devDiaryItems.map((item, index) => (
+                      <li key={index} className="flex gap-3">
+                        <span className="text-primary mt-1.5 md:mt-2">•</span>
+                        <p className="text-foreground">{item}</p>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
 
                 {/* Tech Stack */}
@@ -198,7 +226,11 @@ export function LatestProject() {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-wrap gap-4">
-                  <Button size="lg" asChild className="flex-1 min-w-[160px] h-14 text-lg">
+                  <Button
+                    size="lg"
+                    asChild
+                    className="flex-1 min-w-[160px] h-14 text-lg"
+                  >
                     <a
                       href={projectData.liveUrl}
                       target="_blank"

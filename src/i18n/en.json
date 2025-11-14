@@ -34,7 +34,11 @@
   "latest_project_description_title": "Project Overview",
   "latest_project_description": "A comprehensive quiz platform designed from the quiz creator's perspective, featuring frontend testing interface and backend question bank management. Users can select various quiz categories for testing, view scores and explanations after completion, compete on the leaderboard, and report issues to admin. The admin panel provides complete question CRUD operations, detailed analytics, password management, and issue tracking.",
   "latest_dev_diary_title": "Development Insights",
-  "latest_dev_diary_content": "During development, I discovered a security vulnerability where POSTMAN could be used to send frontend API requests and achieve arbitrary scores on the leaderboard. This issue was resolved by modifying the score reading mechanism.",
+  "latest_dev_diary_items": [
+    "Identified a vulnerability where POSTMAN could replay frontend API requests to post arbitrary leaderboard scores, then locked it down by revising the score retrieval flow.",
+    "Used UptimeRobot to ping the server every five minutes so it stays warm and avoids cold-start delays.",
+    "Batching all analytics API calls into a single payload dramatically cut down the data retrieval latency."
+  ],
 
   "latest_tech_stack": "Tech Stack",
   "latest_key_features": "Key Features",
