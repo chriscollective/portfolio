@@ -19,7 +19,7 @@ export function Skills() {
     },
     {
       title: "AI Tools",
-      skills: ["Figma", "ChatGPT", "Claude", "Copliot"],
+      skills: ["Figma", "ChatGPT", "Claude", "Codex"],
     },
   ];
 
